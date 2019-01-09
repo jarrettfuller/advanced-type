@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: 5px;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+a {
+    color: black;
+}
+a:visit {
+    color: black;
+}
+a:hover {
+    color: white;
+    background: black;
+}
+h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+header {
+    padding-bottom: 20px;
+}
+nav {
+    padding-bottom: 20px;
+}
+.divider {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.syllabus {
+    display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: baseline;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.syllabus h3 {
+    width: 15%;
+    font-size: 14px;
+    font-weight: 700;
+}
+.class {
+    width: 50%;
+}
+.class p {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+img {
+    width: 60%;
+}
+
+/* MOBILE
+----------------------------------- */
+@media only screen and (max-width: 715px) {
+    .syllabus {
+        display: block;
+    }
+    .syllabus h3 {
+        width: 100%;
+    }
+    .class {
+        width: 100%;
+    }
+img {
+    width: 100%;
+}
